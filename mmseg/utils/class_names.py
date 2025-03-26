@@ -487,6 +487,14 @@ def hsidrive_palette():
             [0, 0, 255], [102, 51, 0], [255, 255, 0], [0, 207, 250],
             [255, 166, 0], [0, 204, 204]]
 
+def acdc_classes():
+    return [
+        'RV', 'MYO', 'LV'
+    ]
+
+def acdc_palette():
+    return [[171,171,171],[114,114,114],[57,57,57]]
+
 
 dataset_aliases = {
     'cityscapes': ['cityscapes'],
